@@ -1,0 +1,17 @@
+//
+//  BonjourScanner-Prefix.pch
+//  BonjourScanner
+//
+//  Created by Iurii Skoliar on 7/26/13.
+//  Copyright (c) 2013 Iurii Skoliar. All rights reserved.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+   #import <UIKit/UIKit.h>
+#endif

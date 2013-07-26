@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E2E12F617A285A1005643BE /* BSServicesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E2E12F517A285A1005643BE /* BSServicesController.m */; };
+		1E2E12FA17A290EB005643BE /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1E2E12F817A290EB005643BE /* Localizable.strings */; };
+		1E2E12FF17A29EDC005643BE /* BSServiceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E2E12FE17A29EDC005643BE /* BSServiceController.m */; };
+		1E7650F117A2840900E68E07 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E7650F017A2840900E68E07 /* UIKit.framework */; };
+		1E76511A17A2844F00E68E07 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E76510F17A2844F00E68E07 /* Default-568h@2x.png */; };
+		1E76511B17A2844F00E68E07 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E76511017A2844F00E68E07 /* Default.png */; };
+		1E76511C17A2844F00E68E07 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E76511117A2844F00E68E07 /* Default@2x.png */; };
+		1E76511D17A2844F00E68E07 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1E76511217A2844F00E68E07 /* InfoPlist.strings */; };
+		1E76511E17A2844F00E68E07 /* BSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E76511717A2844F00E68E07 /* BSAppDelegate.m */; };
+		1E76511F17A2844F00E68E07 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E76511817A2844F00E68E07 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1E2E12F417A285A1005643BE /* BSServicesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSServicesController.h; sourceTree = "<group>"; };
+		1E2E12F517A285A1005643BE /* BSServicesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSServicesController.m; sourceTree = "<group>"; };
+		1E2E12F917A290EB005643BE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1E2E12FD17A29EDC005643BE /* BSServiceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSServiceController.h; sourceTree = "<group>"; };
+		1E2E12FE17A29EDC005643BE /* BSServiceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSServiceController.m; sourceTree = "<group>"; };
+		1E7650ED17A2840900E68E07 /* BonjourScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BonjourScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E7650F017A2840900E68E07 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1E76510E17A2844F00E68E07 /* BonjourScanner-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "BonjourScanner-Info.plist"; sourceTree = "<group>"; };
+		1E76510F17A2844F00E68E07 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		1E76511017A2844F00E68E07 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		1E76511117A2844F00E68E07 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		1E76511317A2844F00E68E07 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1E76511517A2844F00E68E07 /* BonjourScanner-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BonjourScanner-Prefix.pch"; sourceTree = "<group>"; };
+		1E76511617A2844F00E68E07 /* BSAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSAppDelegate.h; sourceTree = "<group>"; };
+		1E76511717A2844F00E68E07 /* BSAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSAppDelegate.m; sourceTree = "<group>"; };
+		1E76511817A2844F00E68E07 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E7650EA17A2840900E68E07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E7650F117A2840900E68E07 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E2E12F717A285A4005643BE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1E2E12F417A285A1005643BE /* BSServicesController.h */,
+				1E2E12F517A285A1005643BE /* BSServicesController.m */,
+				1E2E12FD17A29EDC005643BE /* BSServiceController.h */,
+				1E2E12FE17A29EDC005643BE /* BSServiceController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		1E7650E417A2840900E68E07 = {
+			isa = PBXGroup;
+			children = (
+				1E7650F617A2840900E68E07 /* BonjourScanner */,
+				1E7650EF17A2840900E68E07 /* Frameworks */,
+				1E7650EE17A2840900E68E07 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1E7650EE17A2840900E68E07 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E7650ED17A2840900E68E07 /* BonjourScanner.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E7650EF17A2840900E68E07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1E7650F017A2840900E68E07 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1E7650F617A2840900E68E07 /* BonjourScanner */ = {
+			isa = PBXGroup;
+			children = (
+				1E76510D17A2844F00E68E07 /* Resources */,
+				1E76511417A2844F00E68E07 /* Sources */,
+			);
+			path = BonjourScanner;
+			sourceTree = "<group>";
+		};
+		1E76510D17A2844F00E68E07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1E76510E17A2844F00E68E07 /* BonjourScanner-Info.plist */,
+				1E76510F17A2844F00E68E07 /* Default-568h@2x.png */,
+				1E76511017A2844F00E68E07 /* Default.png */,
+				1E76511117A2844F00E68E07 /* Default@2x.png */,
+				1E76511217A2844F00E68E07 /* InfoPlist.strings */,
+				1E2E12F817A290EB005643BE /* Localizable.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1E76511417A2844F00E68E07 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				1E2E12F717A285A4005643BE /* Controllers */,
+				1E76511517A2844F00E68E07 /* BonjourScanner-Prefix.pch */,
+				1E76511617A2844F00E68E07 /* BSAppDelegate.h */,
+				1E76511717A2844F00E68E07 /* BSAppDelegate.m */,
+				1E76511817A2844F00E68E07 /* main.m */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1E7650EC17A2840900E68E07 /* BonjourScanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E76510A17A2840900E68E07 /* Build configuration list for PBXNativeTarget "BonjourScanner" */;
+			buildPhases = (
+				1E7650E917A2840900E68E07 /* Sources */,
+				1E7650EA17A2840900E68E07 /* Frameworks */,
+				1E7650EB17A2840900E68E07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BonjourScanner;
+			productName = BonjourScanner;
+			productReference = 1E7650ED17A2840900E68E07 /* BonjourScanner.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1E7650E517A2840900E68E07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BS;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Iurii Skoliar";
+			};
+			buildConfigurationList = 1E7650E817A2840900E68E07 /* Build configuration list for PBXProject "BonjourScanner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1E7650E417A2840900E68E07;
+			productRefGroup = 1E7650EE17A2840900E68E07 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1E7650EC17A2840900E68E07 /* BonjourScanner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E7650EB17A2840900E68E07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E76511A17A2844F00E68E07 /* Default-568h@2x.png in Resources */,
+				1E76511B17A2844F00E68E07 /* Default.png in Resources */,
+				1E76511C17A2844F00E68E07 /* Default@2x.png in Resources */,
+				1E76511D17A2844F00E68E07 /* InfoPlist.strings in Resources */,
+				1E2E12FA17A290EB005643BE /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E7650E917A2840900E68E07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E76511E17A2844F00E68E07 /* BSAppDelegate.m in Sources */,
+				1E76511F17A2844F00E68E07 /* main.m in Sources */,
+				1E2E12F617A285A1005643BE /* BSServicesController.m in Sources */,
+				1E2E12FF17A29EDC005643BE /* BSServiceController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1E2E12F817A290EB005643BE /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E2E12F917A290EB005643BE /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		1E76511217A2844F00E68E07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E76511317A2844F00E68E07 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1E76510817A2840900E68E07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1E76510917A2840900E68E07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1E76510B17A2840900E68E07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BonjourScanner/Sources/BonjourScanner-Prefix.pch";
+				INFOPLIST_FILE = "BonjourScanner/Resources/BonjourScanner-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1E76510C17A2840900E68E07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BonjourScanner/Sources/BonjourScanner-Prefix.pch";
+				INFOPLIST_FILE = "BonjourScanner/Resources/BonjourScanner-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E7650E817A2840900E68E07 /* Build configuration list for PBXProject "BonjourScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E76510817A2840900E68E07 /* Debug */,
+				1E76510917A2840900E68E07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E76510A17A2840900E68E07 /* Build configuration list for PBXNativeTarget "BonjourScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E76510B17A2840900E68E07 /* Debug */,
+				1E76510C17A2840900E68E07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1E7650E517A2840900E68E07 /* Project object */;
+}
